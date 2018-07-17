@@ -715,6 +715,18 @@ client.on('guildMemberRemove', member => {
     .setColor('RED')
     .setFooter(`! AK`, '')
 
+client.on("guildMemberAdd", function(member) {
+    const wc = member.guild.channels.find("name", "member-log")
+        const embed = new Discord.RichEmbed()
+        .setColor('B90C0C')
+        .setAuthor(member.user.tag, member.user.avatarURL)
+ .setDescription('*** منور السيرفر انشألله يعجبك. ***')
+.setThumbnail(member.avatarURL)
+  .setImage('https://giphy.com/gifs/playstation-ps4-3o7TKrbXUnCJkzAWu4')
+        .setTimestamp()
+        return wc.sendEmbed(embed);
+        
+});
 
 var channel =member.guild.channels.find('name', 'welcome')
 if (!channel) return;
