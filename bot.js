@@ -716,7 +716,7 @@ client.on('guildMemberRemove', member => {
     .setFooter(`! AK`, '')
 
 client.on("guildMemberAdd", member => {
-      const welcomer = client.channels.get("اي دي الروم");
+      const welcomer = client.channels.get("449162478413152258");
       //*let welcomer = member.guild.channels.find("name","welcome");
       if(!welcomer) return;
       if(welcomer) {
