@@ -734,6 +734,8 @@ client.on("guildMemberAdd", function(member) {
         
 });
 
+
+
 var channel =member.guild.channels.find('name', 'welcome')
 if (!channel) return;
 channel.send({embed : embed});
