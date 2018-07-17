@@ -31,4 +31,4 @@ client.user.setGame(`$help | ${client.guilds.size} Servers  | `,"http://twitch.t
 
 
 
-client.login('token');
+client.login(process.env.BOT_TOKEN);
