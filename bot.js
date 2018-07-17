@@ -715,8 +715,8 @@ client.on('guildMemberRemove', member => {
     .setColor('RED')
     .setFooter(`! AK`, '')
 
-bot.on("guildMemberAdd", member => {
-      const welcomer = bot.channels.get("اي دي الروم");
+client.on("guildMemberAdd", member => {
+      const welcomer = client.channels.get("اي دي الروم");
       //*let welcomer = member.guild.channels.find("name","welcome");
       if(!welcomer) return;
       if(welcomer) {
