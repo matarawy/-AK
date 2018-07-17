@@ -172,49 +172,82 @@ client.on('message', message => {
 
  message.author.sendMessage(`
  **
-__~~GAMER-BOT~~__ By: <@448444251504640012>
-?[??????????????]?
-             Prefix = ' * '
-?[??????????????]?
-?[??????????????]?
-             Admin Commands
-?[??????????????]?
- ? *kick <mention > ? kick member from server
- ? *clear ? clear chat ( not ready yet fixing)
+!AK By: @! AK ƦØĊƘĒŦMĀƝ
+
+╔[❖════════════❖]╗
+   Prefix = ' * '
+╚[❖════════════❖]╝
+
+╔[❖════════════❖]╗
+   Admin Commands
+╚[❖════════════❖]╝
+
+ ❖ *kick <mention > ➾ kick member from server
+
+ ❖ *clear ➾ clear chat ( not ready yet fixing)
  
- ? *mute < mention > ? mute member
- ? *unmute <mention> ? unmute member
- ? *ct <name> ? create channel
- ? *cv <name> create voice channel
-  
- ? *bc <message> ? message all members in server
-?[??????????????]?
-            General  Commands
-?[??????????????]?
-? *roll <number> ? role 
-? *date ? see date
-? *member ? members info
-? *ser-av ? server avatar
-? *uptime ? to see uptime
-? *invs ? server invite link
-? *own ? bot owner
-? *id ? your id
-? *avatar ? your avatar account
-? *help-en ? help by arabic
-? *help-en ? help by english
-? *ping ? to see ping
-? *bot ? bot informations 
-? *server ? server informations 
-? *invite ? bot invite link
-?[??????????????]?
-                    Welcome
-?[??????????????]?
+ ❖ *mute < mention > ➾ mute member
+
+ ❖ *unmute <mention> ➾ unmute member
+
+ ❖ *ct <name> ➾ create channel
+
+ ❖ *cv <name> create voice channel
+
+ ❖ *bc <message> ➾ message all members in server
+
+
+╔[❖════════════❖]╗
+  General  Commands
+╚[❖════════════❖]╝
+
+❖ *roll <number> ➾ role 
+
+❖ *date ➾ see date
+
+❖ *member ➾ members info
+
+❖ *ser-av ➾ server avatar
+
+❖ *uptime ➾ to see uptime
+
+❖ *invs ➾ server invite link
+
+❖ *own ➾ bot owner
+
+❖ *id ➾ your id
+
+❖ *avatar ➾ your avatar account
+
+❖ *help-en ➾ help by arabic
+
+❖ *help-en ➾ help by english
+
+❖ *ping ➾ to see ping
+
+❖ *bot ➾ bot informations 
+
+❖ *server ➾ server informations 
+
+❖ *invite ➾ bot invite link
+
+╔[❖════════════❖]╗
+     Welcome
+╚[❖════════════❖]╝
+
 to enable welcome message do channel name "welcome"
+
+
 ==================================================================
+
 Server support: https://discord.gg/8zRnMrt
+
 ==================================================================
+
 bot invite link: https://discordapp.com/oauth2/authorize?client_id=438579591355957248&permissions=8&scope=bot
+
 ==================================================================
+
 `);
 
     }
@@ -232,49 +265,80 @@ client.on('message', message => {
 
  message.author.sendMessage(`
  **
-__~~GAMER-BOT~~__ By: <@448444251504640012>
-????
-?[??????????????]?
-                  Prefix = ' * '
-?[??????????????]?
-?[??????????????]?
-                    اوامر ادارية
-?[??????????????]?
- ?  *kick <mention > ? لطرد عضو
+!AK By: @! AK ƦØĊƘĒŦMĀƝ
+╰━━╯
+╔[❖════════════❖]╗
+    Prefix = ' * '
+╚[❖════════════❖]╝
+
+╔[❖════════════❖]╗
+   اوامر ادارية
+╚[❖════════════❖]╝
+
+ ❖  *kick <mention > ➾ لطرد عضو
  
- ? *mute < mention > ? اسكات عضو 
- ? *clear  ? لتنضيف المحادثة (fixing)
- ? *cv <name> ? صنع روم صوتية
- ? *ct <name> ? صنع روم كتابية
- ? *unmute <mention> ? فك الاسكات من العضو
-  
- ? *bc <message> ? لارسال رسالة لجميع اعضاء السيرفر
-?[??????????????]?
-                    اوامر عامة
-?[??????????????]?
-? *roll <number> ? قرعة
-? *member ? معلومات الاعضاء
-? *avatar ? شعار حسابك
-? *ser-av ? شعار السيرفر
-? *uptime ? مدة التشغيل
-? *id ? اي دي
-? *date ? التاريخ
-? *invs ? رابط دخول سيرفرك
-? *own ? مسؤول البوت
-? *help-ar ? المساعدة في العربي
-? *help-en ? المساعدة في الانجليزيلة
-? *ping ? عرض سرعه اتصال البوت
-? *bot ? معلومات البوت
-? *server ? معلومات السيرفر
-? *invite ? رابط دعوة البوت
-?[??????????????]?
-                      الترحيب
-?[??????????????]?
+ ❖ *mute < mention > ➾ اسكات عضو 
+
+ ❖ *clear  ➾ لتنضيف المحادثة (fixing)
+
+ ❖ *cv <name> ➾ صنع روم صوتية
+
+ ❖ *ct <name> ➾ صنع روم كتابية
+
+ ❖ *unmute <mention> ➾ فك الاسكات من العضو
+
+ ❖ *bc <message> ➾ لارسال رسالة لجميع اعضاء السيرفر
+
+
+╔[❖════════════❖]╗
+     اوامر عامة
+╚[❖════════════❖]╝
+
+❖ *roll <number> ➾ قرعة
+
+❖ *member ➾ معلومات الاعضاء
+
+❖ *avatar ➾ شعار حسابك
+
+❖ *ser-av ➾ شعار السيرفر
+
+❖ *uptime ➾ مدة التشغيل
+
+❖ *id ➾ اي دي
+
+❖ *date ➾ التاريخ
+
+❖ *invs ➾ رابط دخول سيرفرك
+
+❖ *own ➾ مسؤول البوت
+
+❖ *help-ar ➾ المساعدة في العربي
+
+❖ *help-en ➾ المساعدة في الانجليزيلة
+
+❖ *ping ➾ عرض سرعه اتصال البوت
+
+❖ *bot ➾ معلومات البوت
+
+❖ *server ➾ معلومات السيرفر
+
+❖ *invite ➾ رابط دعوة البوت
+
+╔[❖════════════❖]╗
+       الترحيب
+╚[❖════════════❖]╝
+
 لتفعيل خاصية الترحيب قم بعمل قناة اسمها "welcome"
+
 ==================================================================
+
 Server support: https://discord.gg/9FUHdCn
+
 bot invite link: https://discordapp.com/api/oauth2/authorize?client_id=449945015490445325&permissions=8&scope=bot
+
 ==================================================================
+
+
 `);
 
     }
@@ -313,8 +377,8 @@ client.on('message', message => {
  
  __~~Bot Staff~~__
 ??
- __Powered By__: ??????M??#5683
-Server Support : https://discord.gg/8zRnMrt
+ __Powered By__: ! AK ƦØĊƘĒŦMĀƝ#8193
+Server Support : https://discord.gg/Bz4MHEG
 `);
 
 message.channel.send('**تم الارسال في الخاص**');
@@ -330,8 +394,8 @@ client.on('message', message => {
  message.author.sendMessage(`
  
 بامكانك دعوة البوت من هنا
-***bot invite link: https://discordapp.com/oauth2/authorize?client_id=438579591355957248&permissions=8&scope=bot***
-Server Support : https://discord.gg/8zRnMrt
+***bot invite link:https://discordapp.com/api/oauth2/authorize?client_id=449945015490445325&permissions=8&scope=bot***
+Server Support : https://discord.gg/Bz4MHEG
 `);
 
 message.channel.send('**تم الارسال في الخاص**');
@@ -634,7 +698,7 @@ client.on('guildMemberAdd', member => {
     .setDescription(`اهلا بك في السيرفر`)
     .addField(' :bust_in_silhouette:  انت رقم',`**[ ${member.guild.memberCount} ]**`,true)
     .setColor('GREEN')
-    .setFooter('GAMER-BOT', '')
+    .setFooter('! AK', '')
 
 var channel =member.guild.channels.find('name', 'welcome')
 if (!channel) return;
@@ -649,7 +713,7 @@ client.on('guildMemberRemove', member => {
     .setDescription(`الى اللقاء...`)
     .addField(':bust_in_silhouette:   تبقي',`**[ ${member.guild.memberCount} ]**`,true)
     .setColor('RED')
-    .setFooter(`GAMER-BOT`, '')
+    .setFooter(`! AK`, '')
 
 var channel =member.guild.channels.find('name', 'welcome')
 if (!channel) return;
