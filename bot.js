@@ -1,6 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = '*'
+const devs = ['448444251504640012',''];
+const adminprefix = "!!";
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -240,12 +242,11 @@ to enable welcome message do channel name "welcome"
 
 ==================================================================
 
-Server support: https://discord.gg/8zRnMrt
+Server support: https://discord.gg/4jeEmF7
 
 ==================================================================
 
-bot invite link: https://discordapp.com/oauth2/authorize?client_id=438579591355957248&permissions=8&scope=bot
-
+bot invite link:https://discordapp.com/api/oauth2/authorize?client_id=449945015490445325&permissions=8&scope=bot
 ==================================================================
 
 `);
@@ -332,10 +333,9 @@ client.on('message', message => {
 
 ==================================================================
 
-Server support: https://discord.gg/9FUHdCn
+Server support: https://discord.gg/4jeEmF7
 
 bot invite link: https://discordapp.com/api/oauth2/authorize?client_id=449945015490445325&permissions=8&scope=bot
-
 ==================================================================
 
 
