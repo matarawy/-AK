@@ -761,12 +761,6 @@ client.on("message", msg => {
 
 
 
-
-
-
-
-
-
 client.on('message' , message => {
      if (message.content === prefix + "servers") {
 
