@@ -700,6 +700,12 @@ client.on('guildMemberAdd', member => {
     .setColor('GREEN')
     .setFooter('! AK', '')
 
+var channel =member.guild.channels.find('name', 'welcome')
+if (!channel) return;
+channel.send({embed : embed});
+});
+
+
 client.on('guildMemberRemove', member => {
     var embed = new Discord.RichEmbed()
     .setAuthor(member.user.username, member.user.avatarURL)
