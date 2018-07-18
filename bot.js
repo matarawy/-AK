@@ -711,6 +711,11 @@ client.on('guildMemberRemove', member => {
     .setColor('RED')
     .setFooter(`! AK`, '')
 
+var channel =member.guild.channels.find('name', 'welcome')
+if (!channel) return;
+channel.send({embed : embed});
+});
+
 
 const moment = require('moment')
 client.on("guildMemberAdd", function(member) {
