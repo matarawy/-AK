@@ -724,7 +724,7 @@ client.on("guildMemberAdd", function(member) {
         .setAuthor(member.user.tag, member.user.avatarURL)
  .setDescription('*** منور السيرفر انشألله يعجبك. ***')
 .setThumbnail(member.avatarURL)
-  .setImage('https://giphy.com/gifs/playstation-ps4-3o7TKrbXUnCJkzAWu4')
+  .setImage('http://buildmylabel.com/wp-content/uploads/2015/11/welcome.jpg')
         .setTimestamp()
         return wc.sendEmbed(embed);
         
