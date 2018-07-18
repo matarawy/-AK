@@ -716,8 +716,9 @@ channel.send({embed : embed});
 });
 
 
+const moment = require('moment')
 client.on("guildMemberAdd", function(member) {
-    const wc = member.guild.channels.find("name", "member-log")
+    const wc = member.guild.channels.find("name", "welcome")
         const embed = new Discord.RichEmbed()
         .setColor('B90C0C')
         .setAuthor(member.user.tag, member.user.avatarURL)
