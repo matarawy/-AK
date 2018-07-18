@@ -700,12 +700,6 @@ client.on('guildMemberAdd', member => {
     .setColor('GREEN')
     .setFooter('! AK', '')
 
-var channel =member.guild.channels.find('name', 'welcome')
-if (!channel) return;
-channel.send({embed : embed});
-});
-
-
 client.on('guildMemberRemove', member => {
     var embed = new Discord.RichEmbed()
     .setAuthor(member.user.username, member.user.avatarURL)
@@ -715,12 +709,6 @@ client.on('guildMemberRemove', member => {
     .addField(':bust_in_silhouette:   تبقي',`**[ ${member.guild.memberCount} ]**`,true)
     .setColor('RED')
     .setFooter(`! AK`, '')
-
-var channel =member.guild.channels.find('name', 'welcome')
-if (!channel) return;
-channel.send({embed : embed});
-});
-
 
 const moment = require('moment')
 client.on("guildMemberAdd", function(member) {
@@ -735,8 +723,6 @@ client.on("guildMemberAdd", function(member) {
         return wc.sendEmbed(embed);
         
 });
-
-
 
 var channel =member.guild.channels.find('name', 'welcome')
 if (!channel) return;
